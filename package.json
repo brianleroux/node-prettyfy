@@ -1,0 +1,12 @@
+{
+  "name": "prettyfy",
+  "description": "Quick and dirty port of Google's Code Prettyfier to NodeJS/NPM.",
+  "version": "0.0.0",
+  "main": "prettyfy",
+  "directories": {
+    "lib": ""
+  },
+  "engines": {
+    "node": "*"
+  }
+}

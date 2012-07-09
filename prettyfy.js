@@ -56,24 +56,12 @@
 // JSLint declarations
 /*global console, document, navigator, setTimeout, window */
 
-if (typeof window === 'undefined') {
-  window = GLOBAL;
-  if (typeof require === 'function') {
-    var sys = require('sys');
-    window.console = {
-      log: function (m) {
-        sys.puts(m.message);
-        sys.p(m);
-      },
-      trace: function () {
-        sys.puts(new Error().stack);
-      }
-    };
-  }
-}
-if (typeof navigator === 'undefined') {
-  navigator = {};
-}
+if (typeof window === 'undefined')
+  window = GLOBAL
+
+if (typeof navigator === 'undefined') 
+  navigator = {}
+
 
 
 /**
